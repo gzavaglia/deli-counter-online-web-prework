@@ -4,7 +4,6 @@ def line(katz_deli)
   if line_size==0 
   puts "The line is currently empty."
   else
-#<<<<<<< HEAD
     datx = []
   katz_deli.each_with_index {|val, index| datx << "#{index+1}. #{val}"}
   string = datx.join(" ")
@@ -28,8 +27,4 @@ def now_serving(katz_deli)
     puts "Currently serving #{next_inline}."
   end #end if  
 end #end now_serving()
-# =======
-#   puts "The line is currently: "+ katz_deli.each_with_index {|val, index| puts "#{index+1}. #{val}"}
-#   end  #end if 
-# end  #end line()
-# >>>>>>> cd21d2943087f61f6de1f9b03d8b937046edc8df
+
