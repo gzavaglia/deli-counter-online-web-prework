@@ -31,6 +31,10 @@ def now_serving(katz_deli)
 end #end now_serving()
 
 
+def my_method 
+  "hello"
+end 
+
 binding.pry 
 
 # katz_deli = []
