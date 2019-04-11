@@ -21,8 +21,8 @@ def line
 end  #end line()
 
 def take_a_number
-  KATZ_DELI << name
-  len = KATZ_DELI.size
+  KATZ_ << name
+  len = KATZ_.size
   #katz_deli.each_with_index {|val,index| puts "Welcome #{name}. You are number #{index}"
   puts "Welcome, #{name}. You are number #{len} in line."
 end #end take_a_number()
