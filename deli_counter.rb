@@ -32,7 +32,8 @@ end #end now_serving()
 
 
 def my_method 
-  "hello"
+  return "beans"
+  puts "hello"
 end 
 
 binding.pry 
