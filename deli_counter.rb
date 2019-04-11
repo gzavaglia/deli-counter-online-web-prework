@@ -9,12 +9,12 @@ require 'pry'
 
 KATZ_DELI = [210,211]
 def line
-  line_size = katz_deli.size 
+  line_size = KATZ_DELI.size 
   if line_size==0 
   puts "The line is currently empty."
   else
     datx = []
-  katz_deli.each_with_index {|val, index| datx << "#{index+1}. #{val}"}
+  KATZ_DELI.each_with_index {|val, index| datx << "#{index+1}. #{val}"}
   string = datx.join(" ")
   puts "The line is currently: #{string}" 
   end  #end if 
