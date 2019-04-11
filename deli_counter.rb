@@ -23,9 +23,9 @@ end  #end line()
 def take_a_number
   
   len = KATZ_DELI.size
-  KATZ_DELI << KATZ_DELI[len+1]
+  KATZ_DELI << KATZ_DELI[len]
   #katz_deli.each_with_index {|val,index| puts "Welcome #{name}. You are number #{index}"
-  puts "Welcome, #{name}. You are number #{KATZ_DELI[len+1]} in line."
+  puts "Welcome, #{KATZ_DELI[len]+1}. You are number #{len} in line."
 end #end take_a_number()
 
 def now_serving
