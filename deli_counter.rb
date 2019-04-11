@@ -7,7 +7,7 @@ require 'pry'
 
 # how can we have the same functionality that we had before ?
 
-katz_deli = []
+katz_deli = [210,211]
 def line
   line_size = katz_deli.size 
   if line_size==0 
