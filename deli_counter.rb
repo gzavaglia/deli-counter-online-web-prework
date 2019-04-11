@@ -5,7 +5,7 @@ require 'pry'
 # The deli line should now start at [210, 211]
 # The current number hanging on the wheel is 212
 
-# how can we have the same functionality that we had before 
+# how can we have the same functionality that we had before ?
 
 katz_deli = []
 def line
